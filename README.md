@@ -17,4 +17,4 @@ section Seçao 5
 Acabamento Interno:a6,after a5, 25d
 Acabamento Externo:a7, after a6, 15d
 section Seçao 6
-Inspeçao final:a8 after a7, 5d
+Inspeçao final:a8, after a7, 5d
