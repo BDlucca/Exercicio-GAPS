@@ -18,3 +18,24 @@ Acabamento Interno:a6,after a5, 25d
 Acabamento Externo:a7, after a6, 15d
 section Seçao 6
 Inspeçao final:a8, after a7, 5d
+```
+
+```mermaid
+graph TD
+  subgraph Matriz
+    A1["Situacao_1"]:::branco--> A2["D20"]:::amarelo--> A3["E50"]:::laranja--> A4["V100"]:::vermelho
+    A1["C8"]:::branco--> A2["Situacao_2"]:::amarelo--> A3["E50"]:::laranja--> A4["V100"]:::vermelho
+    A1["C8"]:::branco--> A2["D20"]:::amarelo--> A3["E50"]:::laranja--> A4["Situacao_3"]:::vermelho
+    A1["C8"]:::branco--> A2["D20"]:::amarelo--> A3["Situacao_4"]:::laranja--> A4["V100"]:::vermelho
+    A1["C8"]:::branco--> A2["Situaca_5"]:::amarelo--> A3["E50"]:::laranja--> A4["V100"]:::vermelho
+    A1["C8"]:::branco--> A2["D20"]:::amarelo--> A3["Situacao_6"]:::laranja--> A4["V100"]:::vermelho
+    A1["C8"]:::branco--> A2["D20"]:::amarelo--> A3["E50"]:::laranja--> A4["Situacao_7"]:::vermelho
+    A1["C8"]:::branco--> A2["D20"]:::amarelo--> A3["E50"]:::laranja--> A4["Situacao_8"]:::vermelho
+end
+
+classDef branco fill:#fff,      stroke:#000,  stroke-width:1px;
+classDef amarelo fill:#FFD84D,  stroke:#000,  stroke-width:1px;
+classDef laranja fill:#FFA233,  stroke:#000,  stroke-width:1px;
+classDef vermelho fill:#E64C3C, stroke:#000,  stroke-width:1px;
+
+```
