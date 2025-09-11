@@ -24,14 +24,14 @@ Inspeçao final:a8, after a7, 5d
 ```mermaid
 graph TD
   subgraph Matriz
-    A1["Agendamento lento"]:::branco
-    B2["E-commerce fora do ar"]:::amarelo
-    C4["Situacao_3"]:::vermelho
-    D3["Situacao_4"]:::laranja
-    E2["Situaca_5"]:::amarelo
-    F3["Situacao_6"]:::laranja
-    G4["Situacao_7"]:::vermelho
-    H4["Situacao_8"]:::vermelho
+    A1["Agendamento lento:C:8"]:::branco
+    B2["E-commerce fora do ar:D:20"]:::amarelo
+    C4["Sistema hospitalar:V:100"]:::vermelho
+    D3["Aplicativo Delivery:E:50"]:::laranja
+    E2["RH Sem registros:D:35"]:::amarelo
+    F3["Email Corporativo:E:40"]:::laranja
+    G4["Falha de segurança:V:90"]:::vermelho
+    H4["Trafego Aereo:V:100"]:::vermelho
 end
 
 classDef branco fill:#fff,      stroke:#000,  stroke-width:1px;
