@@ -25,13 +25,13 @@ Inspeçao final:a8, after a7, 5d
 graph TD
   subgraph Matriz
     A1["Agendamento lento"]:::branco
-    B1["E-commerce fora do ar"]:::amarelo
-    C1["C8"]:::branco--> C2["D20"]:::amarelo--> C3["E50"]:::laranja--> C4["Situacao_3"]:::vermelho
-    D1["C8"]:::branco--> D2["D20"]:::amarelo--> D3["Situacao_4"]:::laranja--> D4["V100"]:::vermelho
-    E1["C8"]:::branco--> E2["Situaca_5"]:::amarelo--> E3["E50"]:::laranja--> E4["V100"]:::vermelho
-    F1["C8"]:::branco--> F2["D20"]:::amarelo--> F3["Situacao_6"]:::laranja--> F4["V100"]:::vermelho
-    G1["C8"]:::branco--> G2["D20"]:::amarelo--> G3["E50"]:::laranja--> G4["Situacao_7"]:::vermelho
-    H1["C8"]:::branco--> H2["D20"]:::amarelo--> H3["E50"]:::laranja--> H4["Situacao_8"]:::vermelho
+    B2["E-commerce fora do ar"]:::amarelo
+    C4["Situacao_3"]:::vermelho
+    D3["Situacao_4"]:::laranja
+    E2["Situaca_5"]:::amarelo
+    F3["Situacao_6"]:::laranja
+    G4["Situacao_7"]:::vermelho
+    H4["Situacao_8"]:::vermelho
 end
 
 classDef branco fill:#fff,      stroke:#000,  stroke-width:1px;
