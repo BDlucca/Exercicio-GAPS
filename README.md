@@ -1,4 +1,4 @@
-# Constru-ao-de-uma-casa
+# Construcao-de-uma-casa
 
 ```mermaid
 gantt
@@ -20,11 +20,12 @@ section Seçao 6
 Inspeçao final:a8, after a7, 5d
 ```
 
+#Crystal
 ```mermaid
 graph TD
   subgraph Matriz
-    A1["Agendamento lento"]:::branco--> A2["D20"]:::amarelo--> A3["E50"]:::laranja--> A4["V100"]:::vermelho
-    B1["C8"]:::branco--> B2["E-commerce fora do ar"]:::amarelo--> B3["E50"]:::laranja--> B4["V100"]:::vermelho
+    A1["Agendamento lento"]:::branco
+    B1["E-commerce fora do ar"]:::amarelo
     C1["C8"]:::branco--> C2["D20"]:::amarelo--> C3["E50"]:::laranja--> C4["Situacao_3"]:::vermelho
     D1["C8"]:::branco--> D2["D20"]:::amarelo--> D3["Situacao_4"]:::laranja--> D4["V100"]:::vermelho
     E1["C8"]:::branco--> E2["Situaca_5"]:::amarelo--> E3["E50"]:::laranja--> E4["V100"]:::vermelho
