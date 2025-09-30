@@ -45,20 +45,26 @@ classDef vermelho fill:#E64C3C, stroke:#000,  stroke-width:1px;
 #Atividade 2
 ```mermaid
 gantt
-title Sistema de Cadastro de Empresas Parceiras
+  title Tech Connect Solution
 dateFormat YYYY-MM-DD
-section Inicio do Projeto
-Configuração do Ambiente de Desenvolvimento: crit, a1, 2025-02-01, 15d
-Criação do Banco de Dados: crit, a2, after a1, 15d
-Programação do Módulo de Login: crit, a3, after a2, 20d
-Programação do CRUD de Empresas: crit, a4, after a3, 20d
-Implementação do Upload de Logotipo: crit, a5, after a4, 20d
-Desenvolvimento dos Relatórios: crit, a6, after a5, 15d
-Configuração do Painel Administrativo: crit, a7, after a6, 20d
-Testes Unitários e de Integração: crit, a8, after a7, 15d
-section Final do Projeto
-Testes de Usabilidade com Usuários Convidados: crit, a9, after a8, 15d
-Implementação Final no Servidor e Entrega ao Cliente: a10, after a9, 20d
-
-end
+section Seçao 1
+Configuraçao de ambiente:active, a1, 2025-08-28, 20d
+section Seçao 2
+Criaçao do banco de dados:a2, after a1, 20d
+section Seçao 3
+Programaçao de login:a3, after a2, 20d
+section Seçao 4
+ Programaçao do CRUD:a4, after a3, 20d
+section Seçao 5
+Upload do logotipo:a5,after a4, 20d
+section Seçao 6
+Desenvolvimento do relatorio:a6, after a5, 15d
+section Seçao 7
+Configuraçao do painel:a7, after a6, 15d
+section Seçao 8
+Teste unitarios:a8, after a7, 15d
+section Seçao 9
+Teste de usabilidade:a9, after a8, 15d
+section Seçao 10
+Implementaçao final:a10, after a9, 15d
 ```
