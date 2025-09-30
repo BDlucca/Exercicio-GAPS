@@ -76,10 +76,8 @@ graph TD
     B2["CRUD de empresa ativo"]:::amarelo
     C4["Upload de logotipo integrado"]:::vermelho
     D3["Relatorios gerados em PDF e Excel"]:::laranja
-    E2["RH Sem registros"]:::amarelo
-    F3["Email Corporativo"]:::laranja
-    G4["Falha de segurança"]:::vermelho
-    H4["Trafego Aereo"]:::vermelho
+    E2["Painel administrativo com permissoes"]:::amarelo
+    F3["Sistema testado, implementado e validado"]:::laranja
 end
 
 classDef branco fill:#fff,      stroke:#000,  stroke-width:1px;
