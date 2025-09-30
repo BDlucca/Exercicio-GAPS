@@ -68,3 +68,23 @@ Teste de usabilidade:a9, after a8, 15d
 section Seçao 10
 Implementaçao final:a10, after a9, 15d
 ```
+
+```mermaid
+graph TD
+  subgraph Matriz
+    A1["Agendamento lento:C:8"]:::branco
+    B2["E-commerce fora do ar:D:20"]:::amarelo
+    C4["Sistema hospitalar:V:100"]:::vermelho
+    D3["Aplicativo Delivery:E:50"]:::laranja
+    E2["RH Sem registros:D:35"]:::amarelo
+    F3["Email Corporativo:E:40"]:::laranja
+    G4["Falha de segurança:V:90"]:::vermelho
+    H4["Trafego Aereo:V:100"]:::vermelho
+end
+
+classDef branco fill:#fff,      stroke:#000,  stroke-width:1px;
+classDef amarelo fill:#FFD84D,  stroke:#000,  stroke-width:1px;
+classDef laranja fill:#FFA233,  stroke:#000,  stroke-width:1px;
+classDef vermelho fill:#E64C3C, stroke:#000,  stroke-width:1px;
+
+```
