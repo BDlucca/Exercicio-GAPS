@@ -42,7 +42,7 @@ classDef vermelho fill:#E64C3C, stroke:#000,  stroke-width:1px;
 ```
 
 
-#Atividade 2
+#Atividade 2 Gant//Crystal
 ```mermaid
 gantt
   title Tech Connect Solution
