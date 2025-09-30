@@ -72,14 +72,14 @@ Implementaçao final:a10, after a9, 15d
 ```mermaid
 graph TD
   subgraph Matriz
-    A1["Modulo de login funcionando com autenticaçao:C:8"]:::branco
-    B2["CRUD de empresa ativo:D:20"]:::amarelo
-    C4["Upload de logotipo integrado:V:100"]:::vermelho
-    D3["Aplicativo Delivery:E:50"]:::laranja
-    E2["RH Sem registros:D:35"]:::amarelo
-    F3["Email Corporativo:E:40"]:::laranja
-    G4["Falha de segurança:V:90"]:::vermelho
-    H4["Trafego Aereo:V:100"]:::vermelho
+    A1["Modulo de login funcionando com autenticaçao"]:::branco
+    B2["CRUD de empresa ativo"]:::amarelo
+    C4["Upload de logotipo integrado"]:::vermelho
+    D3["Relatorios gerados em PDF e Excel"]:::laranja
+    E2["RH Sem registros"]:::amarelo
+    F3["Email Corporativo"]:::laranja
+    G4["Falha de segurança"]:::vermelho
+    H4["Trafego Aereo"]:::vermelho
 end
 
 classDef branco fill:#fff,      stroke:#000,  stroke-width:1px;
