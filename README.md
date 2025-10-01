@@ -97,12 +97,12 @@ gantt
     Planejamento do Projeto:a1, 2025-10-01, 5d
     Definição do Escopo:a2, after a1, 3d
     section Desenvolvimento
-    Implementar Cadastro de Usuários: b1, 2025-10-10, 7d
-    Implementar Módulo de Empréstimo: b2, after b1, 8d
+    Implementar Cadastro de Usuários: b1, after a2, 7d
+    Implementar Módulo de Empréstimo: b2, after a2, 8d
     section Testes
-    Testes de Segurança: c1, after b1, 5d
+    Testes de Segurança: c1, after b2, 5d
     Correçao de Bugs: c2, after b2, 6d
     section Implantação
-    Treinamento de utilizaçao do Sistema: d1, after c1, 4d
+    Treinamento de utilizaçao do Sistema: d1, after c2, 4d
     Publicação do Sistema: d2, after c2, 2d
 ```
