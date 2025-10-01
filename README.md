@@ -106,3 +106,11 @@ gantt
     Treinamento de utilizaçao do Sistema: d1, after c2, 4d
     Publicação do Sistema: d2, after c2, 2d
 ```
+
+```mermaid
+graph TD
+  subgraph Matriz
+    A1["Modulo de login funcionando com autenticaçao"]:::laranja
+end
+classDef laranja fill:#FFA233,  stroke:#000,  stroke-width:1px;
+```
