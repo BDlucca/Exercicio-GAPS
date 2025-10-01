@@ -89,8 +89,8 @@ classDef vermelho fill:#E64C3C, stroke:#000,  stroke-width:1px;
 
 
 #Atividade feteps
-gantt
 ```mermaid
+gantt
     title Sistema de Biblioteca Online
     dateformat  YYYY-MM-DD
     section Planejamento
