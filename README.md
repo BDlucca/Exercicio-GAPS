@@ -92,22 +92,17 @@ classDef vermelho fill:#E64C3C, stroke:#000,  stroke-width:1px;
 gantt
 ```mermaid
     title Sistema de Biblioteca Online
-    dateFormat  YYYY-MM-DD
-    axisFormat  %d/%m
-
+    dateformat  YYYY-MM-DD
     section Planejamento
-    Levantamento de Requisitos      :a1, 2025-10-01, 5d
-    Definição do Escopo             :a2, after a1, 3d
-
+    Planejamento do Projeto:a1, 2025-10-01, 5d
+    Definição do Escopo:a2, after a1, 3d
     section Desenvolvimento
     Implementar Cadastro de Usuários: b1, 2025-10-10, 7d
     Implementar Módulo de Empréstimo: b2, after b1, 8d
-
     section Testes
-    Testes Unitários                : c1, after b1, 5d
-    Testes de Integração            : c2, after b2, 6d
-
+    Testes de Segurança: c1, after b1, 5d
+    Correçao de Bugs: c2, after b2, 6d
     section Implantação
-    Treinamento de Usuários         : d1, after c1, 4d
-    Publicação do Sistema           : d2, after c2, 2d
+    Treinamento de utilizaçao do Sistema: d1, after c1, 4d
+    Publicação do Sistema: d2, after c2, 2d
 ```
